@@ -1,0 +1,11 @@
+// Create a Map
+const fruits = new Map([
+  ["apples", 500],
+  ["bananas", 300],
+  ["oranges", 200]
+]);
+
+fruits.set("apples", 200);
+
+let numb = fruits.get("apples");
+document.getElementById("demo").innerHTML = "There are " + numb + " apples.";
